@@ -86,3 +86,6 @@ string cheminWindowsSimple = @"C:\docs\fichier.txt";
 // {
 //     Console.WriteLine(tabNB[i]);
 // }
+
+
+// BOUCLE FOREACH
