@@ -69,3 +69,20 @@ string cheminWindowsSimple = @"C:\docs\fichier.txt";
 // {
 //     Console.WriteLine("Vous êtes mineur");
 // }
+
+
+//======== EXERCICE 6 ========
+// BOUCLE FOR
+
+Console.WriteLine("Bonjour, vous allez saisir 3 nombres qui seront stockés dans un tableau puis affichés");
+int[] tabNB = new int[3];
+for (int i = 0; i < 3; i++)
+{
+    Console.WriteLine($"Saisir le nombre qui sera stocké en position {i} : ");
+    tabNB[i] = int.Parse(Console.ReadLine());
+}
+Console.WriteLine("Merci pour votre saisie, voici les 3 nombres saisis : ");
+for (int i = 0; i < 3; i++)
+{
+    Console.WriteLine(tabNB[i]);
+}
