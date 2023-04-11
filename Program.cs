@@ -88,4 +88,3 @@ string cheminWindowsSimple = @"C:\docs\fichier.txt";
 // }
 
 
-// BOUCLE FOREACH
