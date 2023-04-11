@@ -33,17 +33,39 @@ string cheminWindowsSimple = @"C:\docs\fichier.txt";
 
 
 //======== EXERCICE 3 ========
-int a = 9;
-int b = 2;
-Console.WriteLine(a + b);
-Console.WriteLine(a - b);
-Console.WriteLine(a * b);
-Console.WriteLine(a / b);
-Console.WriteLine(a % b);
+// int a = 9;
+// int b = 2;
+// Console.WriteLine(a + b);
+// Console.WriteLine(a - b);
+// Console.WriteLine(a * b);
+// Console.WriteLine(a / b);
+// Console.WriteLine(a % b);
 
 //======== EXERCICE 4 ========
-Console.WriteLine("Saisir un nom : ");
-nom = Console.ReadLine();
-Console.WriteLine("Saisir un âge : ");
-age = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Bonjour " + nom + ", vous avez " + age + " ans.");
+//Console.WriteLine("Saisir un nom : ");
+//nom = Console.ReadLine();
+//Console.WriteLine("Saisir un âge : ");
+//age = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Bonjour " + nom + ", vous avez " + age + " ans.");
+
+//======== EXERCICE 5 ========
+// Console.WriteLine("Saisir un nom : ");
+// nom = Console.ReadLine();
+// Console.WriteLine("Saisir un âge : ");
+// age = int.Parse(Console.ReadLine());
+// Console.WriteLine($"Bonjour {nom}, vous avez {age} ans.");
+
+//======== EXERCICE 6 ========
+// Console.WriteLine("Saisir un nom : ");
+// nom = Console.ReadLine();
+// Console.WriteLine("Saisir un âge : ");
+// age = int.Parse(Console.ReadLine());
+// Console.WriteLine($"Bonjour {nom}, vous avez {age} ans.");
+// if (age >= 18)
+// {
+//     Console.WriteLine("Vous êtes majeur");
+// }
+// else
+// {
+//     Console.WriteLine("Vous êtes mineur");
+// }
