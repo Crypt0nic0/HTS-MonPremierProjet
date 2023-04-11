@@ -25,8 +25,25 @@ string cheminWindowsSimple = @"C:\docs\fichier.txt";
 
 
 //======== EXERCICE 2 ========
+//Console.WriteLine("Saisir un nom : ");
+//nom = Console.ReadLine();
+//Console.WriteLine("Saisir un âge : ");
+//age = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine($"Bonjour {nom}, vous avez {age} ans.");
+
+
+//======== EXERCICE 3 ========
+int a = 9;
+int b = 2;
+Console.WriteLine(a + b);
+Console.WriteLine(a - b);
+Console.WriteLine(a * b);
+Console.WriteLine(a / b);
+Console.WriteLine(a % b);
+
+//======== EXERCICE 4 ========
 Console.WriteLine("Saisir un nom : ");
 nom = Console.ReadLine();
 Console.WriteLine("Saisir un âge : ");
 age = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"Bonjour {nom}, vous avez {age} ans.");
+Console.WriteLine("Bonjour " + nom + ", vous avez " + age + " ans.");
