@@ -88,3 +88,18 @@ string cheminWindowsSimple = @"C:\docs\fichier.txt";
 // }
 
 
+
+
+//========= ASYNCHRONISME ========//
+
+async Task<int> FirstAsyncFunc(int a, int b)
+{
+    return a + b;
+}
+
+int resu = await FirstAsyncFunc(3, 5);
+Console.WriteLine(resu);
+
+
+
+//========= DELEGATE ========//
