@@ -1,4 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using MonPremierProjet;
+
+// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 Console.WriteLine("J'apprend le C# !");
 
@@ -104,8 +106,24 @@ Console.WriteLine(resu);
 
 //========= DELEGATE ========//
 
-FonctionDePrint p = Console.WriteLine;
+// FonctionDePrint p = Console.WriteLine;
 
-p("Print de puis un delegate !");
+// p("Print de puis un delegate !");
 
-public delegate void FonctionDePrint(string message);
+// public delegate void FonctionDePrint(string message);
+
+
+//========= EVENT ========//
+
+Console.WriteLine("Saisir un message : ");
+
+var message = Console.ReadLine();
+var ep = new EventPratique();
+ep.OnMessageReçu += EventPratiqueARecuUnMessage;
+ep.EcrireMessage(message);
+
+void EventPratiqueARecuUnMessage(string message)
+{
+    Console.WriteLine("Merci de votre confiance");
+}
+
