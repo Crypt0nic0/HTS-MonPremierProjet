@@ -103,3 +103,9 @@ Console.WriteLine(resu);
 
 
 //========= DELEGATE ========//
+
+FonctionDePrint p = Console.WriteLine;
+
+p("Print de puis un delegate !");
+
+public delegate void FonctionDePrint(string message);
